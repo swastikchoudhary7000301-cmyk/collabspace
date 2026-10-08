@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #F6F5F2;
+    --surface-main: #FFFFFF;
+    --surface-secondary: #F1F0EC;
+    --surface-subtle: #E8E6DF;
+    --text-primary: #18181B;
+    --text-secondary: #57534E;
+    --text-muted: #8A857D;
+    --border-main: #E2DFD7;
+    --border-subtle: #ECE9E2;
+    --accent-primary: #18181B;
+    --accent-highlight: #4F46E5;
+    --accent-subtle-bg: #F4F3F0;
+    --status-success: #16A34A;
+    --status-warning: #D97706;
+    --status-error: #DC2626;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #F6F5F2;
+    color: #18181B;
+    overflow-x: hidden;
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Precise hairline scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D7D4CC;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BAB6AC;
+}
+
+/* Tabular numbers for vertical metric alignment */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+

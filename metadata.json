@@ -1,0 +1,6 @@
+{
+  "name": "CollabSpace",
+  "description": "Modern collaborative workspace for teams — unifying projects, tasks, documents, calendar, and real-time communication.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
